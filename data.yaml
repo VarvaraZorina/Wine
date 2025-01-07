@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['wine bottle', 'wine label']
+
+roboflow:
+  workspace: varya-6wfd8
+  project: -ovzbr
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/varya-6wfd8/-ovzbr/dataset/1
