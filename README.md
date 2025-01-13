@@ -121,6 +121,9 @@ for img in glob.glob(f'{latest_folder}/*.jpg')[:3]:
     display(IPyImage(filename=img, width=600))
     print("\n")
 ```
+<p align="center">
+ <img width="200px" src="%D0%BC%D0%B0%D1%82%D1%80%D0%B8%D1%86%D0%B0%20%D0%BF%D1%83%D1%82%D0%B0%D0%BD%D0%BD%D0%B8%D1%86%D1%8B.png" alt="Матрица путаницы"/>
+</p>
 #### 2.9 Подключение и использование модели
 
 И, наконец, подключаемся к развернутой модели для выполнения инференса (вывода) на тестовых изображениях. Сначала установим библиотеку `inference`.
